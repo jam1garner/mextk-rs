@@ -14,9 +14,10 @@ pub extern "C" fn OnLoad(_: *const GOBJ) {
 
 #[panic_handler]
 fn panic(_: &core::panic::PanicInfo) -> ! {
-    unsafe {
-        core::hint::unreachable_unchecked()
-    }
+    //unsafe {
+    //    core::hint::unreachable_unchecked()
+    //}
+    loop {}
 }
 
 #[lang = "eh_personality"] extern fn rust_eh_personality() {}
