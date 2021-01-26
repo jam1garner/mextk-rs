@@ -1,8 +1,9 @@
 [package]
-name = "mextk-sys"
+name = "mextk-libc"
 version = "0.1.0"
 authors = ["jam1garner <8260240+jam1garner@users.noreply.github.com>"]
 edition = "2018"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 [dependencies]
-mextk-libc = { path = "../mextk-libc" }

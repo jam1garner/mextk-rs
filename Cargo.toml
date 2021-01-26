@@ -1,4 +1,6 @@
 [workspace]
 members = [
     "mextk-sys",
+    "mextk-libc",
+    "mextk-hello-world",
 ]

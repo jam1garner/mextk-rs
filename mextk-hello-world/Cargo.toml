@@ -1,8 +1,11 @@
 [package]
-name = "mextk-sys"
+name = "mextk-hello-world"
 version = "0.1.0"
 authors = ["jam1garner <8260240+jam1garner@users.noreply.github.com>"]
 edition = "2018"
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
-mextk-libc = { path = "../mextk-libc" }
+mextk-sys = { path = "../mextk-sys" }
