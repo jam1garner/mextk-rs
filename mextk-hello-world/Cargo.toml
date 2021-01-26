@@ -4,8 +4,5 @@ version = "0.1.0"
 authors = ["jam1garner <8260240+jam1garner@users.noreply.github.com>"]
 edition = "2018"
 
-[lib]
-crate-type = ["rlib"]
-
 [dependencies]
 mextk-sys = { path = "../mextk-sys" }
