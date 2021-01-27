@@ -3,6 +3,9 @@ name = "mextk-sys"
 version = "0.1.0"
 authors = ["jam1garner <8260240+jam1garner@users.noreply.github.com>"]
 edition = "2018"
+description = "Bindings to the MexTK library for writing mods for Super Smash Brothers Melee"
+repository = "https://github.com/jam1garner/mextk-rs"
+license = "MIT"
 
 [dependencies]
-mextk-libc = { path = "../mextk-libc" }
+mextk-libc = "0.1"

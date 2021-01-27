@@ -1,0 +1,11 @@
+[package]
+name = "mextk"
+version = "0.1.0"
+authors = ["jam1garner <8260240+jam1garner@users.noreply.github.com>"]
+edition = "2018"
+description = "A library for writing mods for Super Smash Brothers Melee in Rust"
+respository = "https://github.com/jam1garner/mextk-rs"
+license = "MIT"
+
+[dependencies]
+mextk-sys = "0.1"
