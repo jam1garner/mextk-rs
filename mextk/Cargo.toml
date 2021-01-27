@@ -8,4 +8,4 @@ respository = "https://github.com/jam1garner/mextk-rs"
 license = "MIT"
 
 [dependencies]
-mextk-sys = "0.1"
+mextk-sys = { version = "0.1", path = "../mextk-sys" }
